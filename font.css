@@ -1,0 +1,73 @@
+h2{
+    background-color: rgb(60, 177, 157);
+}
+
+
+.font-color{
+    color: rgb(254, 58, 78);
+}
+
+.font-family{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.font-size{
+    font-size: xx-large;
+}
+
+.font-style{
+    font-style: italic;
+}
+
+.font-weight{
+    font-weight: bolder;
+}
+
+.font-variant{
+    font-variant: small-caps;
+}
+
+.font-line-height{
+    font-size: 18px;
+    line-height: 3;
+    background-color: rgb(232, 191, 69);
+}
+
+
+
+#text-align{
+    text-align: center;
+}
+
+.text-deco{
+    text-decoration: overline;
+}
+
+h3{
+    text-transform: uppercase;
+}
+
+.text-letter-spacing{
+    letter-spacing: 5px;
+}
+
+.text-indent{
+    text-indent: 90px;
+}
+h1{
+    color: rgb(198, 9, 208);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:35px;
+    font-style: italic;
+    font-weight: bolder;
+    font-variant: small-caps;
+    line-height:3;
+    background-color: rgb(147, 226, 118);
+
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-transform: capitalize;
+    text-indent: 12px;
+    letter-spacing:0px ;
+}

@@ -3,7 +3,7 @@
 }
 
 
-.abhu{
+.Edu{
     color: darkcyan;
 }
 
@@ -12,6 +12,22 @@ footer{
 }
 
 .skill{
-    color:coral;
+    color:rgb(143, 31, 149);
 }
 
+.proj{
+    color: rgb(129, 11, 11);
+}
+
+body{
+    background-color: rgb(249, 235, 230);
+}
+
+.trans{
+    text-transform: uppercase;
+}
+
+.port{
+    text-decoration: underline;
+    font-style: oblique;
+}

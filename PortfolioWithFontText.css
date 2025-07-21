@@ -1,0 +1,70 @@
+h2{
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-style: oblique;
+    font-variant: small-caps;
+    
+    text-decoration:underline;
+    text-decoration-color: black;
+    text-transform: capitalize;
+    line-height: 4;
+    background-color: rgb(188, 232, 122);
+    letter-spacing: 2px;
+}
+
+.nav{
+    color: rgb(9, 116, 116);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+    letter-spacing:2px ;
+}
+
+h3{
+    background-color: rgb(90, 199, 163);
+    line-height: 2;
+    text-align: center;
+}
+
+.about{
+    text-indent: 65px; 
+    letter-spacing:1px;
+    line-height:25px;
+}
+
+.edu{
+    text-transform: capitalize;
+    line-height:2 ;
+    letter-spacing: 1px;
+}
+
+.skill{
+    letter-spacing:1px;
+    line-height:2 ;
+}
+
+.proj{
+    text-indent: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+footer{
+    text-transform: capitalize;
+    color: rgb(117, 4, 142);
+    line-height: 3;
+    letter-spacing:1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cont{
+    letter-spacing:1px ;
+    line-height: 2;
+}
+
+.name{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
