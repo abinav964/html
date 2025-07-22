@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(15, 95, 40);
+}
+
+h1{
+    line-height: 3;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    background-color: rgb(238, 211, 105);
+    color: rgb(94, 10, 16);
+    text-decoration-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+
+}
+
+.h2{
+    background-color: rgb(192, 57, 79);
+    text-align: center;
+    font-variant: small-caps;
+}
+
+h2{
+    
+    background-color:rgb(120, 117, 124);
+    line-height: 2;
+}
+
+h3{
+    text-transform: capitalize;
+    background-color: rgb(120, 117, 124);
+    line-height: 2;
+}
+
+p{
+    text-indent: 92px;
+    letter-spacing: .5px;
+    font-style: oblique;
+}
+
+.author{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: end;
+}
+
+footer{
+    color: rgb(48, 6, 27);
+    font-size: large;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}

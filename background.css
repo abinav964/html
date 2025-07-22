@@ -1,0 +1,44 @@
+body{
+    color: rgb(235, 192, 192);
+    background-color: rgb(193, 9, 113);
+}
+
+h2{
+    background-color: rgb(30, 161, 76);
+    line-height: 3;
+}
+
+.bg-color{
+    background-color: blueviolet;
+}
+
+.bg-image{
+    background-image:url(image.jpg);
+}
+
+.bg-repeat{
+    background-image: url(image.jpg);
+    background-repeat: no-repeat;
+}
+
+.bg-size{
+    background-image: url(image.jpg);
+    background-size: cover;
+}
+
+.bg-posi{
+    background-image: url(image.jpg);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.bg-attach{
+    background-image: url(image.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.bg-shorthand{
+    background: url(image.jpg) no-repeat center fixed ;
+}
