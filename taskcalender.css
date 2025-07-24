@@ -1,0 +1,27 @@
+th{
+    padding: 20px;
+    background-color: rgb(160, 16, 105);
+    color: rgb(249, 251, 254);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+td{
+    padding: 20px;
+    font-weight: 900;
+    background-color: rgb(239, 233, 208);
+
+}
+
+table{
+     border-collapse: collapse;
+}
+
+h1{
+    font-variant:small-caps;
+    color: rgb(9, 70, 134);
+}
+
+body{
+    background-color: rgb(190, 215, 207);
+}
