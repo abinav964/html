@@ -1,0 +1,107 @@
+body{
+    background-color: blue;
+}
+
+.first{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    animation: block 5s ease-out 1s infinite;
+    /* border-radius: 1000px; */
+    transition: 1s ease-in-out;
+    /* margin: 100px; */
+}
+
+.first:hover{
+    animation-play-state: paused;
+    background-color: aqua;
+    /* transform: rotatex(180deg); */
+    /* transform: scale(.2) rotate(450deg); */
+    /* transform: skew(45deg);
+    transform-origin: top right; */
+    transform: translatex(50px);
+}
+
+@keyframes block{
+    /* from{
+        width: 300px;
+    }
+    to{
+        width: 600px;
+    } */
+
+    0%{
+        width: 200px;
+        height: 200px;
+        /* background-color: blueviolet; */
+
+    }
+    50%{
+       width: 400px;
+       /* height: 700px; */
+       /* background-color: green; */
+       }
+    100%{
+        width: 200px;
+        /* height: 300px; */
+        /* background-color: brown; */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+    display: flex;
+    /* background-color: rgb(239, 100, 36); */
+    width: 100%;
+    height: 100%;
+    margin-top: 200px;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container > div{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+
+.loader-1 {
+    animation: loader 1s ease-out 0.3s infinite;
+}
+.loader-2 {
+    animation: loader 1s ease-out 0.6s infinite;
+}
+.loader-3 {
+    animation: loader 1s ease-out 0.9s infinite;
+}
+
+
+
+@keyframes loader {
+    0%{
+        transform: translateY(10px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+
+
+
