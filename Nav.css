@@ -50,12 +50,15 @@ nav .nav-list{
 nav .nav-list li a{
     text-decoration: none;
     color: rgb(73, 77, 73);
-
-    
 }
 
 nav ul li a:hover{
     color: rgb(246, 17, 17);
+}
+
+nav button:hover{
+    background-color: rgb(229, 243, 40);
+    color:white;
 }
 
 nav .nav-button{
